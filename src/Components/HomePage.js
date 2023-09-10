@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Alert } from "@mui/material";
 import NavBar from "./NavBar";
 import Empty from "./Images/empty.png";
-import { animate, motion } from "framer-motion";
-import { useAnimate } from "framer-motion";
 
 function Home() {
   const [values, setValues] = useState([]);

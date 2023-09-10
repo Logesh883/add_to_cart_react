@@ -8,7 +8,7 @@ function Navigation() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/add_to_cart-react" element={<Load />} />
+          <Route path="/" element={<Load />} />
           <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>

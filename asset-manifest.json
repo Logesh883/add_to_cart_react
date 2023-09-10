@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/add_to_cart_react/static/css/main.0321a86e.css",
-    "main.js": "/add_to_cart_react/static/js/main.7de5873b.js",
+    "main.js": "/add_to_cart_react/static/js/main.a4dc6515.js",
     "static/js/787.bffa9f59.chunk.js": "/add_to_cart_react/static/js/787.bffa9f59.chunk.js",
     "static/media/Online-shopping-logo-design-template-on-transparent-background-PNG.png": "/add_to_cart_react/static/media/Online-shopping-logo-design-template-on-transparent-background-PNG.632aa80ca1ded6be0cd7.png",
     "static/media/empty.png": "/add_to_cart_react/static/media/empty.f788e972021d64aebc7e.png",
     "static/media/3225130.svg": "/add_to_cart_react/static/media/3225130.3813c606417077c2a5c3fdcb1dd3b1d2.svg",
     "index.html": "/add_to_cart_react/index.html",
     "main.0321a86e.css.map": "/add_to_cart_react/static/css/main.0321a86e.css.map",
-    "main.7de5873b.js.map": "/add_to_cart_react/static/js/main.7de5873b.js.map",
+    "main.a4dc6515.js.map": "/add_to_cart_react/static/js/main.a4dc6515.js.map",
     "787.bffa9f59.chunk.js.map": "/add_to_cart_react/static/js/787.bffa9f59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0321a86e.css",
-    "static/js/main.7de5873b.js"
+    "static/js/main.a4dc6515.js"
   ]
 }

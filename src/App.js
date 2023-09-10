@@ -1,12 +1,18 @@
+import React from "react";
 import "./App.css";
-import { Navigation } from "./Router";
+import { Routes, BrowserRouter, Route } from "react-router-dom";
+import Load from "./Components/load";
+import Home from "./Components/HomePage";
 
 function App() {
   return (
     <>
-      <div className="">
-        <Navigation />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/add_to_cart_react" element={<Load />} />
+          <Route path="/home" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

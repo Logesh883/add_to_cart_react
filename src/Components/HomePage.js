@@ -47,6 +47,10 @@ function Home() {
     CartArray.splice(index, 1);
     setCount(() => count - 1);
     setTotPrice((count) => count - value.price);
+    setAddedItems((prevAddedItems) => ({
+      ...prevAddedItems,
+      [value.id]: false,
+    }));
   };
 
   return (
@@ -56,9 +60,9 @@ function Home() {
         style={CartShow ? { display: "none" } : {}}
       >
         <NavBar />
-        <div className="columns-4 m-12 space-y-16">
+        <div className="columns-4 m-12 space-y-16 sm:flex-wrap">
           {values.map((li) => (
-            <div className="flex justify-evenly" key={li.id}>
+            <div className="flex justify-evenly flex-wrap" key={li.id}>
               <div className="border-2 border-gray-300 rounded-xl w-[320px] p-7 ml-5 min-h-[400px] shadow-xl  hover:shadow-pink-400">
                 <div className="">
                   <img
@@ -129,6 +133,7 @@ function Home() {
               CartArray.splice(0, CartArray.length);
               setTotPrice(0);
               setCount(0);
+              setAddedItems(false);
             }}
             className="border bg-red-600 p-2 rounded-xl text-slate-200 font-bold tracking-wider hover:shadow-lg hover:shadow-red-400 "
           >
